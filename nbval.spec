@@ -4,7 +4,7 @@
 #
 Name     : nbval
 Version  : 0.9.4
-Release  : 3
+Release  : 4
 URL      : https://files.pythonhosted.org/packages/8a/9d/152c8783de318eeeb6b822dc56d542fddab14a64f5044ac726f8f3ca3dd1/nbval-0.9.4.tar.gz
 Source0  : https://files.pythonhosted.org/packages/8a/9d/152c8783de318eeeb6b822dc56d542fddab14a64f5044ac726f8f3ca3dd1/nbval-0.9.4.tar.gz
 Summary  : A py.test plugin to validate Jupyter notebooks
@@ -54,6 +54,7 @@ python components for the nbval package.
 Summary: python3 components for the nbval package.
 Group: Default
 Requires: python3-core
+Provides: pypi(nbval)
 
 %description python3
 python3 components for the nbval package.
@@ -68,7 +69,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1576613135
+export SOURCE_DATE_EPOCH=1583185768
 # -Werror is for werrorists
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
