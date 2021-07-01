@@ -4,7 +4,7 @@
 #
 Name     : nbval
 Version  : 0.9.6
-Release  : 14
+Release  : 15
 URL      : https://files.pythonhosted.org/packages/7a/5c/ae5ea6f6bbaefcb4de94072bd31566682fe927f33ab8bfeb8f0179aa346a/nbval-0.9.6.tar.gz
 Source0  : https://files.pythonhosted.org/packages/7a/5c/ae5ea6f6bbaefcb4de94072bd31566682fe927f33ab8bfeb8f0179aa346a/nbval-0.9.6.tar.gz
 Summary  : A py.test plugin to validate Jupyter notebooks
