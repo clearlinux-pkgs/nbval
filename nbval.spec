@@ -4,7 +4,7 @@
 #
 Name     : nbval
 Version  : 0.9.6
-Release  : 19
+Release  : 20
 URL      : https://files.pythonhosted.org/packages/7a/5c/ae5ea6f6bbaefcb4de94072bd31566682fe927f33ab8bfeb8f0179aa346a/nbval-0.9.6.tar.gz
 Source0  : https://files.pythonhosted.org/packages/7a/5c/ae5ea6f6bbaefcb4de94072bd31566682fe927f33ab8bfeb8f0179aa346a/nbval-0.9.6.tar.gz
 Summary  : A py.test plugin to validate Jupyter notebooks
@@ -75,15 +75,15 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1603154802
+export SOURCE_DATE_EPOCH=1635757581
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
 export NM=gcc-nm
-export CFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=4 "
-export FCFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=4 "
-export FFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=4 "
-export CXXFLAGS="$CXXFLAGS -O3 -ffat-lto-objects -flto=4 "
+export CFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=auto "
+export FCFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=auto "
+export FFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=auto "
+export CXXFLAGS="$CXXFLAGS -O3 -ffat-lto-objects -flto=auto "
 export MAKEFLAGS=%{?_smp_mflags}
 python3 setup.py build
 
